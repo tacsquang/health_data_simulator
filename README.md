@@ -27,3 +27,6 @@ Data files included in `data_set/`:
 - `gym_logins_realistic.csv`
 - `health_data_stream.csv`
 - `workout_events.csv`
+
+Note: Kafka topics:
+- Ensure these topics exist before running the producer: `user_cdc`, `health_events`, `workout_events`, `gym_sessions`.
