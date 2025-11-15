@@ -1,0 +1,11 @@
+# Bỏ qua file cấu hình nhạy cảm (API Keys)
+config/kafka_config.json
+
+# Bỏ qua các thư mục chứa dữ liệu đầu ra và log
+output_data/
+logs/
+
+# Bỏ qua các file rác của Python và hệ điều hành
+__pycache__/
+*.pyc
+.DS_Store
