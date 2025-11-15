@@ -1,0 +1,7 @@
+{
+  "bootstrap.servers": "localhost:9092",
+  "security.protocol": "PLAINTEXT",
+  "sasl.mechanisms": "PLAIN",
+  "sasl.username": "<your-username>",
+  "sasl.password": "<your-password>"
+}
